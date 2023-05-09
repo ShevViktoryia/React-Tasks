@@ -44,6 +44,12 @@ li {
   min-width: 65%;
 }
 
+#search-input {
+  min-width: 70%;
+  height: 30px;
+  margin: 30px;
+}
+
 #delete_btn {
   border: 3px solid red;
   background-color: rgb(242, 66, 66);

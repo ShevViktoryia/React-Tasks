@@ -2,9 +2,10 @@ export const Input = (props) => {
   return (
     <input
       type="text"
-      id="todo-input"
+      id={props.id}
       value={props.value}
       onChange={props.onChange}
+      placeholder={props.placeholder}
     />
   )
 }
