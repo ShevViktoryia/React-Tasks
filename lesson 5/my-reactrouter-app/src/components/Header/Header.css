@@ -1,0 +1,7 @@
+.header_block {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(22, 25, 31);
+  padding: 2rem;
+  font-size: 20px;
+}
