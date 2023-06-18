@@ -1,0 +1,25 @@
+.user_card {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid grey;
+  border-radius: 10%;
+  padding: 0.5rem;
+  height: 100%;
+}
+
+.user_name {
+  font-size: 26px;
+  color: #213547;
+}
+
+.info {
+  padding: 15px 30px;
+  background-color: rgb(183, 183, 27);
+  color: white;
+  margin-top: 15px;
+  text-align: center;
+}
+
+.info:hover {
+  border: none;
+}
