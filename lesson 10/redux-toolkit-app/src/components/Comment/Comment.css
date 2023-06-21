@@ -1,0 +1,16 @@
+.comment {
+  width: 80%;
+  margin: 10px 0;
+  border: 1px solid black;
+}
+
+.name {
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.text {
+  font-size: 15px;
+  padding: 10px;
+}

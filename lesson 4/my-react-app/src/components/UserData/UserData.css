@@ -1,0 +1,19 @@
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  white-space: nowrap;
+  padding: 0.5rem;
+  border: 1px solid black;
+}
+
+th {
+  background: rgba(0, 0, 0, 0.1);
+}
+
+td {
+  text-align: left;
+}

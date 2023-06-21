@@ -1,0 +1,52 @@
+#root {
+  margin: 0 auto;
+  height: 100%;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.home_block, .users_block, .user_block, .pageNotFound, .about_block {
+  display: flex;
+  flex-direction: column;
+  padding: 0 2rem;
+  flex: 1 1 auto;
+}
+
+h1 {
+  text-align: center;
+  margin: 0;
+  padding-top: 1rem;
+}
+
+.users_list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  align-items: center;
+  justify-content: center;
+  grid-gap: 40px;
+  padding: 3rem;
+}
+
+.user_block {
+  padding-top: 2rem;
+  align-items: center;
+  justify-content: center;
+}
+
+#white {
+  background-color: white;
+}
+
+#grey {
+  background-color: rgb(189, 185, 185);
+}
+
+.team_block {
+  display: flex;
+  justify-content: space-around;
+}
